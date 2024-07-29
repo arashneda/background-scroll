@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1458782106/fr/photo/vue-a%C3%A9rienne-panoramique-du-paysage-de-montagne-avec-une-for%C3%AAt-et-la-rivi%C3%A8re-bleue.jpg?s=1024x1024&w=is&k=20&c=2_jHNfjLoMh6PTkOuteDgfjom6vM8c46X_OjyP0_jOY=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.container h1 {
+  position: absolute;
+  top: 40%;
+  color: rgb(138, 0, 0);
+  font-size: 4rem;
+  text-shadow: 0 3px 5px black;
+ 
+}
+.container p {
+  padding: 10px 30px;
+  line-height: 30px;
+  color: gray;
+  font-size: 1.2rem;
+  text-align: justify;
+}
